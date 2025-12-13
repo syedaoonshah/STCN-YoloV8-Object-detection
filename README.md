@@ -3,15 +3,25 @@
 
 # STCN + YOLOv8 Video Object Detection
 
+
 <p align="center">
-	<img src="output/baseball.gif" width="220" alt="Baseball Example" />
-	<img src="output/beach.gif" width="220" alt="Beach Example" />
-	<img src="output/city_ride.gif" width="220" alt="City Ride Example" />
-	<img src="output/horse.gif" width="220" alt="Horse Example" />
+	<img src="output/baseball.gif" width="600" alt="Baseball Example" />
+	<br><b>Baseball Example</b>
 </p>
 
 <p align="center">
-	<b>Example Results: Baseball | Beach | City Ride | Horse</b>
+	<img src="output/beach.gif" width="600" alt="Beach Example" />
+	<br><b>Beach Example</b>
+</p>
+
+<p align="center">
+	<img src="output/city_ride.gif" width="600" alt="City Ride Example" />
+	<br><b>City Ride Example</b>
+</p>
+
+<p align="center">
+	<img src="output/horse.gif" width="600" alt="Horse Example" />
+	<br><b>Horse Example</b>
 </p>
 
 Fast and accurate object detection for video using STCN and YOLOv8 on GPU. Each object is highlighted with a bounding box and class label.
@@ -132,3 +142,4 @@ The model can detect 21 object classes:
 - Detected classes: person, horse
 - Processing time: 1.1s/frame
 - Average confidence: 93.5%
+
